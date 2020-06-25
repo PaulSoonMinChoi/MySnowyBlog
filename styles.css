@@ -4,22 +4,23 @@
 }
 
 body {
-    background-image: url('https://image.freepik.com/free-vector/hand-painted-background-gradient-with-copy-space_23-2148421199.jpg');
+    background-image: url('./backgroundofbirds.jpg');
     background-size: cover;
 }
 
 .nav-bar-container {
-    background-color: #b2ebf2;
+    /* background-color: #b2ebf2; */
     width: 100%;
     margin: 0 auto;
-
+    border-bottom: 1px solid black;
 }
+
 
 .close-nav-bar-btn {
     position: absolute;
     right: 10px;
     top: 0;
-    background: #e0f7fa;
+    background: #eceff1;
     outline: none;
     border: 1px solid white;
     border-radius: 4px;
@@ -28,7 +29,7 @@ body {
 /* LOGO IMG */
 .nav-bar-container img {
     height: auto;
-    width: 100px;
+    width: 250px;
     border-radius: 50%;
     margin-left: 40px;
     margin-top: 10px;
@@ -39,18 +40,20 @@ body {
 .search-bar-container {
     float: right;
     margin-top: 40px;
-    margin-right: 300px;
+    margin-right: 100px;
 }
 
 .search-bar-container label {
     font-size: 40px;
-    text-decoration: underline overline black;
+    /* text-decoration: line-through #ffecb3; */
 }
 
 .search-bar-container input {
     border: 4px solid black;
     border-radius: 10px;
-    padding-top: 15px;
+
+    outline: none;
+    font-size: 25px;
 }
 
 
@@ -72,10 +75,33 @@ body {
     text-decoration: none;
     line-height: 85px;
     font-size: 20px;
+    text-decoration: underline #ffecb3;
 }
 
 .nav-bar-container ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline #ffc107;
 }
 
 
+/* BLOG POSTS */
+.blogs-container div {
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.blogs-container h4 {
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.blogs-container p {
+    font-weight: bold;
+}
