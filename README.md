@@ -1,2 +1,2 @@
-#My Nav Bar skills 
-Going to be testing out some of my nav bar techniques!
+#My Blog test
+Trying to make my first little blog! Getting really interesting haha!
