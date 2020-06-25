@@ -4,8 +4,9 @@
 }
 
 body {
-    background-image: url('./backgroundofbirds.jpg');
+    background-image: url('./pic2.jpg');
     background-size: cover;
+    /* background-position: center; */
 }
 
 .nav-bar-container {
@@ -51,7 +52,7 @@ body {
 .search-bar-container input {
     border: 4px solid black;
     border-radius: 10px;
-
+    opacity: 0.5;
     outline: none;
     font-size: 25px;
 }
@@ -93,15 +94,29 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     display: inline-block;
+    position: relative;
+}
 
+.blogs-container div::before {    
+    content: "";
+    background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-12/27/12/asset/buzzfeed-prod-fastlane-01/sub-buzz-27993-1514395821-3.jpg?downsize=600:*&output-format=auto&output-quality=auto');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 2px;
+    left: 0px;
+    opacity: 0.35;
 }
 
 .blogs-container h4 {
     padding-bottom: 20px;
     text-decoration: underline;
     font-size: 20px;
+    position: relative;
 }
 
 .blogs-container p {
     font-weight: bold;
+    position: relative;
 }
