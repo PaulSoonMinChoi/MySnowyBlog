@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://image.freepik.com/free-vector/hand-painted-background-gradient-with-copy-space_23-2148421199.jpg');
+    background-size: cover;
+}
+
+.nav-bar-container {
+    background-color: #b2ebf2;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.close-nav-bar-btn {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background: #e0f7fa;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+/* LOGO IMG */
+.nav-bar-container img {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* SEARCH BAR */
+.search-bar-container {
+    float: right;
+    margin-top: 40px;
+    margin-right: 300px;
+}
+
+.search-bar-container label {
+    font-size: 40px;
+    text-decoration: underline overline black;
+}
+
+.search-bar-container input {
+    border: 4px solid black;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+
+/* NAV LINKS */
+.nav-bar-container ul {
+    float: right;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.nav-bar-container ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.nav-bar-container ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 85px;
+    font-size: 20px;
+}
+
+.nav-bar-container ul li a:hover {
+    text-decoration: underline;
+}
+
+
